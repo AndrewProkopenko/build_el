@@ -5,7 +5,7 @@ html, body {
   color: #000;
   font-family: "Montserrat", sans-serif !important; }
 
-.btn-custom a {
+.btn-custom a { 
   display: inline-block;
   font-weight: 700;
   font-size: 1.15rem;
