@@ -871,6 +871,11 @@ header.sticky {
       font-weight: 700; }
     .electro-service_item-head__text div span {
       color: #fe9b0b; }
+    .electro-service_item-head__text div p {
+      font-size: .9rem;
+      line-height: .8rem;
+      margin-bottom: 0;
+      margin-top: 5px; }
   .electro-service_item-footer {
     margin-top: 15px; }
     .electro-service_item-footer a {
@@ -1078,6 +1083,8 @@ header.sticky {
     padding-bottom: 0 !important;
     margin-bottom: 40px;
     text-align: center; }
+  .electro-adv_trigger a:hover {
+    text-decoration: none; }
   .electro-adv_trigger-item {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1112,6 +1119,7 @@ header.sticky {
       .electro-adv_trigger-item:hover svg {
         fill: #fff; }
       .electro-adv_trigger-item:hover .text {
+        text-decoration: none;
         color: #fff; }
     .electro-adv_trigger-item svg {
       height: 50px;
@@ -1122,6 +1130,7 @@ header.sticky {
       -o-transition: 300ms ease;
       transition: 300ms ease; }
     .electro-adv_trigger-item .text {
+      color: #000;
       width: 100%;
       font-size: 1.3rem;
       line-height: 1.5rem;
@@ -1261,6 +1270,8 @@ header.sticky {
     padding-bottom: 30px !important;
     margin-bottom: 0;
     text-align: center; }
+  .electro-stage a:hover {
+    text-decoration: none; }
   .electro-stage_trigger-item {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1293,32 +1304,35 @@ header.sticky {
       .electro-stage_trigger-item:hover svg {
         fill: #fff; }
       .electro-stage_trigger-item:hover .text {
-        color: #fff; }
+        color: #fff;
+        text-decoration: none; }
     .electro-stage_trigger-item svg {
       height: 36px;
       width: 36px;
       margin-bottom: 20px;
       fill: #000; }
     .electro-stage_trigger-item .text {
+      color: #000;
       width: 100%;
       font-size: 1rem;
       line-height: 1.2rem;
       font-weight: 700;
-      text-align: center; }
+      text-align: center;
+      text-decoration: none !important; }
 
 @-webkit-keyframes stageAnimation {
   0% {
-    background: -webkit-gradient(linear, left bottom, left top, from(#ff9600), to(#fbaf38));
-    background: linear-gradient(0deg, #ff9600 0%, #fbaf38 100%); }
+    background: -webkit-gradient(linear, left bottom, left top, from(#fda11f), to(#ffb949));
+    background: linear-gradient(0deg, #fda11f 0%, #ffb949 100%); }
   100% {
     background: -webkit-gradient(linear, left bottom, left top, from(#ff9600), to(#fbaf38));
     background: linear-gradient(0deg, #ff9600 0%, #fbaf38 100%); } }
 
 @keyframes stageAnimation {
   0% {
-    background: -webkit-gradient(linear, left bottom, left top, from(#ff9600), to(#fbaf38));
-    background: -o-linear-gradient(bottom, #ff9600 0%, #fbaf38 100%);
-    background: linear-gradient(0deg, #ff9600 0%, #fbaf38 100%); }
+    background: -webkit-gradient(linear, left bottom, left top, from(#fda11f), to(#ffb949));
+    background: -o-linear-gradient(bottom, #fda11f 0%, #ffb949 100%);
+    background: linear-gradient(0deg, #fda11f 0%, #ffb949 100%); }
   100% {
     background: -webkit-gradient(linear, left bottom, left top, from(#ff9600), to(#fbaf38));
     background: -o-linear-gradient(bottom, #ff9600 0%, #fbaf38 100%);
