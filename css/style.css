@@ -1044,19 +1044,9 @@ header.sticky {
         -webkit-transition: 1000ms ease;
         -o-transition: 1000ms ease;
         transition: 1000ms ease; }
-      .electro-send_item form button svg.start {
-        -webkit-animation: flyPlain 500ms ease forwards;
-                animation: flyPlain 500ms ease forwards;
-        -webkit-transform: translate(20px, -20px);
-            -ms-transform: translate(20px, -20px);
-                transform: translate(20px, -20px); }
       .electro-send_item form button:hover {
         -webkit-animation: hoverBtn 300ms ease-in-out forwards;
                 animation: hoverBtn 300ms ease-in-out forwards; }
-        .electro-send_item form button:hover span {
-          -webkit-transform: translateX(-10px);
-              -ms-transform: translateX(-10px);
-                  transform: translateX(-10px); }
   .electro-send_item > span {
     display: block;
     color: #b6b6b6;
@@ -1476,19 +1466,9 @@ header.sticky {
           -webkit-transition: 1000ms ease;
           -o-transition: 1000ms ease;
           transition: 1000ms ease; }
-        .electro-contact_item form button svg.start {
-          -webkit-animation: flyPlain 500ms ease forwards;
-                  animation: flyPlain 500ms ease forwards;
-          -webkit-transform: translate(20px, -20px);
-              -ms-transform: translate(20px, -20px);
-                  transform: translate(20px, -20px); }
         .electro-contact_item form button:hover {
           -webkit-animation: hoverBtn 300ms ease-in-out forwards;
                   animation: hoverBtn 300ms ease-in-out forwards; }
-          .electro-contact_item form button:hover span {
-            -webkit-transform: translateX(-10px);
-                -ms-transform: translateX(-10px);
-                    transform: translateX(-10px); }
     .electro-contact_item > span {
       display: block;
       color: #b6b6b6;
@@ -2155,13 +2135,17 @@ header.sticky {
         margin-left: 0; }
   .electro-about {
     margin-top: 0;
-    padding-top: 20px; }
+    padding-top: 30px; }
     .electro-about_item {
       min-height: auto; }
       .electro-about_item h3 {
-        text-align: center; }
+        text-align: center;
+        padding-bottom: 20px !important;
+        margin-bottom: 0; }
       .electro-about_item p {
         text-align: center; }
+  .electro-service h3 {
+    padding-top: 30px; }
   .electro-contact {
     margin-top: 20px; }
     .electro-contact_item {
@@ -2191,6 +2175,8 @@ header.sticky {
         line-height: 1rem; }
   .electro-slider {
     margin-top: 0; }
+    .electro-slider_item {
+      padding-top: 20px; }
     .electro-slider .owl-stage-outer {
       padding-bottom: 30px; }
   .electro-stage {
@@ -2247,6 +2233,26 @@ header.sticky {
       font-size: 0.8rem; } }
 
 @media screen and (min-width: 992px) {
+  .electro-send_item form button svg.start {
+    -webkit-animation: flyPlain 500ms ease forwards;
+            animation: flyPlain 500ms ease forwards;
+    -webkit-transform: translate(20px, -20px);
+        -ms-transform: translate(20px, -20px);
+            transform: translate(20px, -20px); }
+  .electro-send_item form button:hover span {
+    -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+            transform: translateX(-10px); }
+  .electro-contact_item form button svg.start {
+    -webkit-animation: flyPlain 500ms ease forwards;
+            animation: flyPlain 500ms ease forwards;
+    -webkit-transform: translate(20px, -20px);
+        -ms-transform: translate(20px, -20px);
+            transform: translate(20px, -20px); }
+  .electro-contact_item form button:hover span {
+    -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+            transform: translateX(-10px); }
   header.sticky .electro-header {
     margin-bottom: 0; }
     header.sticky .electro-header .navbar {
