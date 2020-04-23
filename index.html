@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.min.css"> 
-    <link rel="stylesheet" href="css/vendor.min.css"> 
+    <title>Муж на час</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/vendor.css"> 
+    <link rel="shortcut icon" type="image/png" href="favicon.ico">
 </head>
 <body>
 
@@ -21,10 +22,10 @@
                 <div class="service-modal-container_contact__item">
                     
                     <h3>Заполните форму ниже и мы перезвоним Вам в за 5 минут</h3>
-                    <form name="modalForm" onsubmit="submitModal()" > 
+                    <form name="modalForm" > 
                         
-                        <input type="text" placeholder="Ваше имя" required>
-                        <input  class="tel-mask" type="text" placeholder="Ваш номер" required> 
+                        <input name="input4" type="text" placeholder="Ваше имя" required>
+                        <input name="input5" type="text" placeholder="Ваш номер" required> 
                         <div class="btn-cont">
                             <button type="submit">Перезвоните мне</button>
                         </div>
@@ -32,22 +33,9 @@
                     <span>Нажимая на кнопку "Перезвоните мне" Вы соглашаетесь на обработку Ваших данных</span>
                 </div>
             </div>
-            <div class="service-modal-container_end">
-                <div class="modal-close">
-                    <svg>
-                        <use xlink:href="#close"></use>
-                    </svg>
-                </div>
-                <div class="service-modal-container_contact__item">
-                   
-                     
-                    <h3>Мы перезвоним Вам за 5 минут</h3>
-                    <div class="btn-custom js-close-bnt">
-                        <a>Хорошо</a>
-                    </div>
-                     
-                </div>
+          
             </div>
+
         </div>
     </div>
     <!-- modal window end -->
@@ -146,7 +134,7 @@
                     <div class="electro-banner_content-button">
                         <p>Вызовите мастера и получите скидку</p>
                         <form action="#">
-                            <input  class="tel-mask" type="text" placeholder="Ваш телефон" required>
+                            <input name="input1" type="text" placeholder="Ваш телефон" required>
                             <button type="submit">
                                 <svg> 
                                     <use xlink:href="#in-col"></use>
@@ -213,12 +201,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
-                                            Заказать
-                                            <svg>
-                                                <use xlink:href="#tick"></use>
-                                            </svg> 
-                                    </a>
+                                      <div class="js-modal-btn">
+                                            <a href="#" >
+                                                Заказать
+                                                <svg>
+                                                    <use xlink:href="#tick"></use>
+                                                </svg> 
+                                            </a>
+                                      </div> 
                                   </div>
                               </div>
                         </div>
@@ -243,12 +233,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
-                                            Заказать
-                                            <svg>
-                                                <use xlink:href="#tick"></use>
-                                            </svg> 
-                                    </a>
+                                        <div class="js-modal-btn">
+                                            <a href="#" >
+                                                Заказать
+                                                <svg>
+                                                    <use xlink:href="#tick"></use>
+                                                </svg> 
+                                            </a>
+                                        </div> 
                                   </div>
                               </div>
                         </div>
@@ -273,12 +265,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                    </div> 
                                   </div>
                               </div>
                         </div>
@@ -303,12 +297,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -333,12 +329,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -363,12 +361,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -393,12 +393,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -423,12 +425,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -453,12 +457,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -483,12 +489,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -513,12 +521,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -543,12 +553,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -573,12 +585,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -603,12 +617,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -633,12 +649,14 @@
                         <div class="electro-service_item-footer"> 
                               <div class="row">
                                   <div class="col-12 col-lg-6">
-                                        <a href="#">
+                                    <div class="js-modal-btn">
+                                        <a href="#" >
                                             Заказать
                                             <svg>
                                                 <use xlink:href="#tick"></use>
                                             </svg> 
-                                    </a>
+                                        </a>
+                                  </div> 
                                   </div>
                               </div>
                         </div>
@@ -664,7 +682,7 @@
                     <div class="electro-send_item">
                         <h4>Сообщить о вашей проблеме специалисту</h4>
                         <form action="/">
-                            <input class="tel-mask" type="text" placeholder="Ваш номер телефона" />
+                            <input name='input2' type="text" placeholder="Ваш номер телефона" />
                             <button class="js-send-plain" type="submit">
                                 <svg>
                                     <use xlink:href="#send"></use> 
@@ -923,7 +941,7 @@
             <div class="row">  
                 <div class="col-12 col-lg-5 order-1 order-lg-0  ">
                     <div class="js-map-hidden-wrap electro-contact_map">
-                        <div id="map"></div>
+                        <div class="map"></div>
                         <div class="wrap"></div>
                     </div>
                 </div>
@@ -934,7 +952,7 @@
                        
                         <form action="#"> 
                             
-                            <input class="tel-mask" type="text" placeholder="Ваш телефон" required>  
+                            <input name='input3' type="text" placeholder="Ваш телефон" required>  
                             <button class="js-send-plain" type="submit">
                                 <svg>
                                     <use xlink:href="#send"></use> 
@@ -1408,8 +1426,8 @@
     <script src="js/vendor.min.js"></script> 
     <script src="js/script.min.js"></script> 
      <!-- map -->
-     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV6rGizlGVgxJ09UYM9d-T2A2AuC0Xf60&callback=initMap"
-     type="text/javascript"></script> 
+     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV6rGizlGVgxJ09UYM9d-T2A2AuC0Xf60&callback=initMap"
+     type="text/javascript"></script>  -->
 
 
 </body>
