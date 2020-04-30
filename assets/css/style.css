@@ -5,8 +5,11 @@ html, body {
   color: #000;
   font-family: "Montserrat", sans-serif !important; }
 
+body {
+  padding-top: 60px; }
+
 .btn-custom a {
-  display: inline-block; 
+  display: inline-block;
   font-weight: 700;
   font-size: 1.15rem;
   color: #fff;
@@ -93,15 +96,16 @@ header.sticky {
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 1000 !important; }
+  z-index: 995 !important; }
 
 .service-modal {
   display: none;
   overflow: auto;
   position: fixed;
-  z-index: 999999;
+  z-index: 999;
   width: 100%;
   height: 100%;
+  margin-top: -60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -118,7 +122,6 @@ header.sticky {
       width: 100%;
       max-width: 750px;
       margin: 0 auto;
-      margin-bottom: 100px;
       background: #fff;
       border-radius: 4px; }
       .service-modal-container_contact .modal-close, .service-modal-container_end .modal-close {
@@ -347,6 +350,12 @@ header.sticky {
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+
 .electro-header {
   margin-bottom: 50px;
   background-color: #28282e; }
@@ -502,6 +511,7 @@ header.sticky {
             background-color: #e9eff3;
             color: #25313f; }
   .electro-header_menu {
+    background: #fff;
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
             box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -560,7 +570,7 @@ header.sticky {
 .electro-banner {
   background-color: #e4e4e4;
   color: #000;
-  padding-top: 90px;
+  padding-top: 110px;
   padding-bottom: 90px; }
   .electro-banner_content {
     display: -webkit-box;
@@ -1245,7 +1255,7 @@ header.sticky {
       width: 100%; }
       .electro-slider_item-head__image {
         position: relative;
-        width: 66px;
+        min-width: 66px;
         height: 66px;
         border-radius: 35px;
         background-position: center;
@@ -1892,7 +1902,9 @@ header.sticky {
     header.sticky .electro-header .navbar {
       padding: 0; }
   header.sticky .electro-header_menu a {
-    margin-right: 0; } }
+    margin-right: 0; }
+  .electro-slider .owl-nav {
+    display: none; } }
 
 @media screen and (max-width: 770px) {
   .electro-header_collapse {
@@ -1929,7 +1941,7 @@ header.sticky {
       .electro-header_collapse__tools-select {
         padding-bottom: 30px; }
   .electro-banner {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 20px; }
     .electro-banner_content {
       -webkit-box-align: center;
